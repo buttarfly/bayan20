@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:ital,wght@1,300&family=Kaushan+Script&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 10px  rgba(190, 31, 84, 0.534);
+    padding: 10px 0px;
+    top:0px;
+    position: sticky;
+    background-color:#f5f2f7;
+    z-index: 3;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #8000af;
+}
+nav a:hover{
+    background-color: rgba(0,0,0,0.49);
+}
+.sec1{
+    display: flex;
+}
+ header h2{
+    color: #8000af;
+}
+header i{
+    color: #8000af;
+
+}
+
+
+
+
+.home_page{
+    background-image: url(..//images/0a4dcb92fa2d3c601b58d72720d6bec4.jpg);
+background-size: cover;
+height: 100vh;
+
+    text-align: center;
+ background-attachment: fixed;
+  
+    color: white;
+
+    padding-top: 50px;
+    border-radius: 60px solid rgba(0, 0, 0, 0.973);
+    position: relative;
+    
+  
+    
+}
+.home_page_item{
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    bottom: 25%;
+    right: 40%;
+}
+.home_page_item h2{
+    border-top:10px double;
+    border-bottom: 10px double;
+    font-size:xx-large;
+    text-transform: uppercase;
+    margin: 40px 50px;
+    padding: 20px 40px;
+}
+.home_page_item button{
+    margin: 20px;
+
+    padding: 3px 30px;
+    border: 1px solid rgba(105, 191, 206, 0.719);
+    text-align: center;
+  
+ 
+    align-items: center;
+
+}
+.home_page_item button:hover{
+    border-style: groove;
+}
+
+.sec-2{
+    text-align: center;
+   height: 0px 80px;    
+   margin: 80px;
+   font-size: larger;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   color: white;
+}
+.sec-2 i{
+    color: #00b4d8;
+}
+
+
+.sec-3{
+    display: flex;
+    align-items: center;
+    background-image: url(..//images/HD-wallpaper-planeet-illustrator-planet.jpg);
+    height: 100vh;
+   background-size: cover;
+   margin: 50px;
+   gap: 60px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+.sec-3-left{
+    width: 50%;
+    color: #edebee;
+    padding: 0px 30px;
+    text-transform:capitalize;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.sec-3-right {
+    width: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    color: rgb(85, 204, 240);
+    gap:20px;
+  margin: 60px 150px;
+
+
+    
+}
+.sec-3-left button{
+    width: 100px;
+height: 40px;
+border: 2px solid white;
+align-items: center;
+margin: 40px 0px;
+padding: 10px 0px;
+margin: 20px;
+
+}
+.sec-3-left button:hover{
+    background-color:rgb(85, 204, 240);
+
+}
+.fet_box{
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+background-color: rgba(248, 251, 252, 0.945);
+
+
+}
+.item img{
+    width: 60px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.item{width: 30%;
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+
+
+}
+.item p{
+    margin:0px 25px;
+}
+.photos{
+ display: flex;
+ justify-content: center;
+    padding: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: antiquewhite;
+    background-size:cover ;
+    margin: 150px;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.photos h3{
+    color: #480ca8;
+    font-size: larger;
+}
+.photos_box img{
+    width: 60%;
+    height: 60%;
+    border-radius: 40px solid  rgb(44, 178, 202);
+
+}
+.photo_title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 80px;
+    color: white;
+   
+    font-size: xx-large;
+}
+button{
+ 
+width: 200px;
+height: 40px;
+
+transform: translate(-180,50);
+
+
+padding: 3px 60px;
+border: 1px solid rgba(253, 254, 255, 0.719);
+text-align: center;
+left: 60px;
+top: 40px;
+right: 50px;
+
+
+
+
+
+
+
+
+}
+
+
+
+.subscribe{
+    height: 40vh;
+    background-image: url(..//images/0a4dcb92fa2d3c601b58d72720d6bec4.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+   
+    
+    
+
+}
+.subscribe_item{
+
+    width: 400px;
+  
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  font-size: larger;
+  
+    
+
+}
+
+
+.FOOTER{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 20px;
+    margin: 0px 10px;
+   
+    
+}
+ .FOOT_ITEM{
+     margin: 0px 10px;
+
+}
+.subscribe_item button:hover{
+    border: 5px solid rgba(0, 0, 0, 0.459);
+    background-color: rgba(193, 216, 230, 0.349);
+    border-radius: 10%;
+}
+.fa-google{
+    background: white;
+    border-radius: 60px;
+    color:  rgb(85, 204, 240);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+}
+.fa-facebook{
+    background: white;
+    border-radius: 60px;
+    color:  rgb(85, 204, 240);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+}
+.fa-instagram{
+    background: white;
+    border-radius: 60px;
+    color:  rgb(85, 204, 240);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+  
+
+}
+.fa-youtube{
+    background: white;
+    border-radius: 90px;
+    color:  rgb(85, 204, 240);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+    
+
+
+
+  
+}
+.fa-twitter{
+    background: white;
+    border-radius: 90px;
+    color:  rgb(85, 204, 240);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 6px;
+    
+
+
+
+}
+
+
+
+
+
+
+.photos_box img:hover{
+    border:5px solid #4361ee;
+    transition: 3s;
+
+}
+.FINEL{
+    display: flex;
+    justify-content: center;
+   
+   
+
+}
+.FINEL p{
+    border-right-style: double;
+    margin: 0px 10px;
+    color: white;
+
+}
+body{
+    background-color: #004E9A;
+}
+.item i{
+color: #8000af;
+}
+.fa:hover{
+    transform: translate(0px,-5px);
+}
+.btns button{
+width: 180px;
+padding: 5px 0px;
+font-size: 15px;
+margin: 0px 10px ;
+background-color: rgba(0, 0, 0, 0.459);
+color: white;
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.sec1 i{
+    margin: 0px 10px;
+}
+.fa{
+    margin: 0px 6px;
+}
